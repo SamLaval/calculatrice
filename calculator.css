@@ -1,0 +1,81 @@
+﻿.container-calculator {
+    max-width: 200px;
+    max-height: 400px;
+    margin: auto;
+    font-family: Calibri;
+    background-color:lightgray;
+}
+
+.clear {
+    float:left;
+    background-color:orangered;
+    cursor:pointer;
+    width:3em;
+    height:3em;
+    line-height: 3em;
+    text-align:center;
+    user-select:none;
+    border-radius: 5%;
+    margin-top: 2px;
+    transition: background-color .2s ease;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.input {
+    overflow: hidden;
+    text-align: right;
+    height:3em;
+    width:9em;
+    float:left;
+    background-color:darkgrey;
+    color: black;
+    line-height: 3em;
+    display: inline;
+    letter-spacing:1px;
+    margin-top: 2px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5%;
+}
+
+.keys, .top {
+    overflow:hidden;
+    margin-left: 2px;
+}
+
+.keys span {
+    float:left;
+    cursor:pointer;
+    width:3em;
+    height:3em;
+    line-height: 3em;
+    color:white;
+    text-align:center;
+    user-select:none;
+    border-radius: 5%;
+    transition: background-color .2s ease;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.keys span {
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+
+.keys span:hover {
+    background-color: lightblue;
+    transition: background-color .2s ease;
+}
+
+.clear:hover {
+    background-color: lightcoral;
+    transition: background-color .2s ease;
+}
+
+#infoPos {
+    float:left;
+    font-size: 40%;
+}
